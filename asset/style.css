@@ -1,0 +1,113 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-gr {
+    background-color: #239753;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.hero {
+    background-image: url(./img/bg-hero.png);
+    background-size: cover;
+    color: #fff;
+    padding: 200px 0 200px;
+    margin-top: -40px;
+}
+.hero .hero-title a {
+    color: #333 !important;
+}
+h1,h4,h5 {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+
+.section-menu {
+    padding: 100px 0 50px;
+}
+
+.section-menu .menu-category .text-menu-title img{
+    float: left;
+}
+
+.section-menu .menu-category .text-menu-title h4{
+    float: left;
+    font-size: 16pt;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.btn-yl {
+    background-color: #f6c23e;
+}
+
+.btn-yl:hover {
+    background-color: #ffffff;
+    color: #f6c23e;
+}
+
+.btn-gr {
+    background-color: #239753;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-gr:hover {
+    background-color: #186b3a;
+    color: #fff;
+    
+}
+
+.section-article {
+    background-color: #239753;
+    padding: 100px 0 50px;
+}
+
+.section-article .bg-article {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.section-article .bg-article a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+}
+
+.section-article .bg-article a:hover {
+    color: #239753;
+}
+
+
+.section-produk .produk {
+    background-color: #fff;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    padding: 20px;
+}
+
+.section-produk .list-produk .item-list{
+    background-color: #239753;
+    padding: 5px;
+    text-align: center;
+}
+
+.section-produk .list-produk .item-list a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.section-produk .produk .body-produk .btn {
+    width: 100%;
+}
+
+.section-produk .produk .body-produk .badge {
+    font-size: 14pt;
+    padding: 7px 15px;
+    margin: 10px 0;
+}
+
+
+footer {
+    background-color: #f6c23e;
+}
